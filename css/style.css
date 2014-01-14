@@ -1,0 +1,261 @@
+
+
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #738791;
+	color: white;
+	font-weight: 300;
+	line-height: 1.5;
+
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+header {
+	background-color: rgba(255,255,255,0);
+	width: 1000px;
+	height: 75px;
+	left: 50%;
+	margin-left: -500px;
+	position: fixed;
+}
+
+#backFiller {
+	background-color: #738791;
+	width: 1000px;
+	height: 79px;
+	left: 50%;
+	margin-left: -500px;
+	position: fixed;
+	z-index: -1;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+	background-color: #738791;
+	left: 50%;
+	margin-left: -50px;
+	position: fixed;
+	z-index: -1;
+	top: 30px;
+}
+
+header #links {
+	float: right;
+	margin-top: 30px;
+}
+
+header div a {
+	text-decoration: none;
+	color: white;
+	font-weight: 200;
+	font-size: 16px;
+	padding-left: 25px;
+	opacity: 0.75;
+}
+
+header div a:hover{
+	opacity: 1;
+}
+
+header #text{
+	margin-top: 28px;
+}
+
+header #line1{
+	height: 1px;
+	background-color: rgba(255,255,255,0.5);
+	width: 430px;
+	margin-top: 24px;
+}
+
+header #line2{
+	height: 1px;
+	background-color: rgba(255,255,255,0.5);
+	width: 430px;
+	float: right;
+}
+
+header #logo {
+	position: fixed;
+	z-index: 2;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -47px;
+}
+
+
+/* -------- Header Styles End -----------*/
+
+.cell {
+	width: 100%;
+	height: 750px;
+}
+
+.cell:nth-child(3){
+		background: url(../img/photos/1.jpg) no-repeat center bottom;
+
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cell:nth-child(4){
+		background: url(../img/photos/4.jpg) no-repeat center bottom;
+		
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cell:nth-child(5){
+		background: url(../img/photos/6.jpg) no-repeat center center;
+		
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cell:nth-child(6){
+		background: url(../img/photos/2.jpg) no-repeat center center;
+		
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cell:nth-child(7){
+		background: url(../img/photos/5.jpg) no-repeat center center;
+		
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+.cell img {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 353px;
+	display: block;
+}
+
+section{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	position: relative;
+	z-index: -2 !important;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+#skills ul {
+	width: 450px;
+	float: left;
+
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+#skills ul li {
+	padding-bottom: 10px;
+
+}
+
+#experience div p {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 500px;
+	float: left;
+}
+
+#experience div ul{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 500px;
+	float: right;
+}
+
+#experience h3 {
+	width: 500px;
+	float: left;
+}
+#experience h3:nth-child(2) {
+	width: 460px;
+	float: right;
+}
+
+#experience div{
+	overflow: hidden;
+}
+
+#experience div {
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+#experience div div{
+	border: none;
+	padding-bottom: 0px;
+}
+
+#references span i {
+	margin-left: 40px;
+	color: rgba(255,255,255,0.6);
+} 
+
+#references {
+	padding-bottom: 25px;
+	border-bottom: none;
+}
+
+footer{
+	height: 250px;
+	background-color: rgba(21, 48, 66 ,0.5);
+}
+
+footer h5{
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 50px;
+}
+
+footer div a, footer div span{
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-decoration: none;
+}
+
+footer div {
+	width: 400px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer div span {
+	float: right;
+}
